@@ -1,5 +1,4 @@
 cpp
-#somma_numeri_positivi.cpp
 
 #include <iostream>
 
@@ -22,6 +21,7 @@ int main(){
 
 return 0;
 }
+
 
 
 
