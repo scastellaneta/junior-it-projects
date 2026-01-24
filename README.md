@@ -15,7 +15,7 @@ Repository di progetti di programmazione sviluppati per mostrare competenze prat
   - Output su console con `cout`
 
 ### 2. [Altri progetti]
-- Esempi Python di base
+- Esempo Python di base
 - Ogni progetto contiene **file funzionante** e commenti per spiegare il codice
 
 ## Come usare
