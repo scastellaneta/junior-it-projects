@@ -1,5 +1,5 @@
 
-#rubrica_breve.py
+#rubrica_contatti.py
 """
 Mini progetto Python - Rubrica contatti
 Mostra gestione lista di contatti con aggiunta e visualizzazione.
@@ -20,4 +20,5 @@ while True:
         break
     else:
         print("Comando non valido.")
+
 
