@@ -1,7 +1,7 @@
 # junior-it-projects
 
 
-Repository di progetti di programmazione sviluppati per mostrare competenze pratiche in ambito informatico. Include esempi in **C++**, **Python** e **HTML**, adatti a progetti didattici e portfolio professionale per junior IT.
+Repository di progetti di programmazione sviluppati per mostrare competenze pratiche in ambito informatico. Include esempi in **C++** e **Python** , adatti a progetti didattici e portfolio professionale per junior IT.
 
 ## Contenuti
 
@@ -16,7 +16,6 @@ Repository di progetti di programmazione sviluppati per mostrare competenze prat
 
 ### 2. [Altri progetti]
 - Esempi Python di base
-- Piccoli progetti HTML/CSS per praticare sviluppo web
 - Ogni progetto contiene **file funzionante** e commenti per spiegare il codice
 
 ## Come usare
