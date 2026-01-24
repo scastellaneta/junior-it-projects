@@ -1,4 +1,4 @@
-
+Python
 #rubrica_contatti.py
 """
 Mini progetto Python - Rubrica contatti
@@ -20,5 +20,6 @@ while True:
         break
     else:
         print("Comando non valido.")
+
 
 
