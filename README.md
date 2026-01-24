@@ -1,2 +1,25 @@
 # junior-it-projects
-Raccolta di progetti di programmazione in Python, C++ e HTML, sviluppati per mostrare competenze pratiche da junior IT
+
+
+Repository di progetti di programmazione sviluppati per mostrare competenze pratiche in ambito informatico. Include esempi in **C++**, **Python** e **HTML**, adatti a progetti didattici e portfolio professionale per junior IT.
+
+## Contenuti
+
+### 1. Somma Numeri Positivi (C++)
+- **File:** `somma_positivi.cpp`
+- **Descrizione:** Calcola la somma di tutti i numeri positivi presenti in un array di interi.
+- **Obiettivi didattici:**  
+  - Uso di array e cicli `for`  
+  - Condizioni `if`  
+  - Variabili e operazioni aritmetiche  
+  - Output su console con `cout`
+
+### 2. [Altri progetti]
+- Esempi Python di base
+- Piccoli progetti HTML/CSS per praticare sviluppo web
+- Ogni progetto contiene **file funzionante** e commenti per spiegare il codice
+
+## Come usare
+1. Clona la repository:
+   ```bash
+   git clone https://github.com/tuonome/junior-it-projects.git
