@@ -1,4 +1,4 @@
-
+cpp
 #include <iostream>
 
 using namespace std;
@@ -14,8 +14,9 @@ int main(){
         }
     }
 
-    cout<<"La somma dei numeri positivi è:"<<somma<<endl;
+    cout<<"La somma dei numeri positivi Ã¨:"<<somma<<endl;
 
 
 return 0;
 }
+
