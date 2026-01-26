@@ -15,8 +15,14 @@ Repository di progetti di programmazione sviluppati per mostrare competenze prat
   - Output su console con `cout`
 
 ### 2. [Altri progetti]
-- Esempo Python di base
-- Ogni progetto contiene **file funzionante** e commenti per spiegare il codice
+- 2. Rubrica contatti (Python)
+- **File:** `rubrica_contatti.py`
+- **Descrizione:** Mini progetto Python che permette di gestire una rubrica di contatti tramite menu testuale.
+- **Obiettivi didattici:**
+  - utilizzo di liste e tuple
+  - input/output da terminale
+  - ciclo `while`
+  - condizioni `if / elif / else`
 
 ## Come usare
 1. Clona la repository:
