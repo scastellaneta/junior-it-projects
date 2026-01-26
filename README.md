@@ -1,7 +1,6 @@
 # junior-it-projects
 
-
-Repository di progetti di programmazione sviluppati per mostrare competenze pratiche in ambito informatico. Include esempi in **C++** e **Python** , adatti a progetti didattici e portfolio professionale per junior IT.
+Progetti personali in C++ e Python per esercitazione e apprendimento della programmazione.
 
 ## Contenuti
 
