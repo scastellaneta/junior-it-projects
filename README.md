@@ -13,7 +13,7 @@ Progetti personali in C++ e Python per esercitazione e apprendimento della progr
   - Variabili e operazioni aritmetiche  
   - Output su console con `cout`
 
-### 2. Rubrica contatti (Python
+### 2. Rubrica contatti (Python)
 - **File:** `rubrica_contatti.py`
 - **Descrizione:** Mini progetto Python che permette di gestire una rubrica di contatti tramite menu testuale.
 - **Obiettivi didattici:**
