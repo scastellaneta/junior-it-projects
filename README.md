@@ -4,7 +4,7 @@ Progetti personali in C++ e Python per esercitazione e apprendimento della progr
 
 ## Contenuti
 
-1. Somma Numeri Positivi (C++)
+##1. Somma Numeri Positivi (C++)
 File: somma_positivi.cpp  
 Descrizione: Programma che calcola la somma di tutti i numeri positivi presenti in una sequenza di numeri interi.
 
@@ -14,7 +14,7 @@ Obiettivi didattici:
 - Variabili e operazioni aritmetiche
 - Output su console con cout
 
-2. To-Do List CLI (Python)
+##2. To-Do List CLI (Python)
 File: todo_list.py  
 Descrizione: Applicazione da terminale scritta in Python per la gestione di una lista di attività (to-do list).
 
