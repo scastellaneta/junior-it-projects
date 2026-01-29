@@ -1,26 +1,28 @@
-cpp
+// Programma C++ per il calcolo della somma dei numeri positivi
 
 #include <iostream>
-
 using namespace std;
 
 int main(){
-    int numeri[]={3,-1,7,-5,0,4};
-    int somma = 0;
-
-    int dimensione = sizeof(numeri)/sizeof(numeri[0]);
+    int n, somma = 0;
     
-    for(int i = 0; i < dimensione;i++){
-        if(numeri[i]>0){
-            somma += numeri[i];
+    cout << "Inserisci numeri (0 per terminare):" << endl;
+    
+    while (true){
+        cin >> n;
+        if(n == 0) break;
+        if(n > 0) {
+            somma += n;
         }
     }
+    
+    cout << "La somma dei numeri positivi è: " << somma << endl;
+    
 
-    cout<<"La somma dei numeri positivi è:"<<somma<<endl;
-
-
-return 0;
+    return 0;
 }
+
+
 
 
 
