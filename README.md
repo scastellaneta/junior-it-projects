@@ -4,8 +4,8 @@ Progetti personali in C++ e Python per esercitazione e apprendimento della progr
 
 ## Contenuti
 
-##1. Somma Numeri Positivi (C++)
-File: somma_positivi.cpp  
+##1. positive_sum (C++)
+File: positive_sum.cpp  
 Descrizione: Programma che calcola la somma di tutti i numeri positivi presenti in una sequenza di numeri interi.
 
 Obiettivi didattici:
