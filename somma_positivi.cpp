@@ -1,26 +1,32 @@
 // Programma C++ per il calcolo della somma dei numeri positivi
-
 #include <iostream>
-using namespace std;
 
-int main(){
-    int n, somma = 0;
-    
-    cout << "Inserisci numeri (0 per terminare):" << endl;
-    
-    while (true){
-        cin >> n;
-        if(n == 0) break;
-        if(n > 0) {
+int main() {
+    int n;
+    int somma = 0;
+
+    std::cout << "Inserisci numeri (0 per terminare):" << std::endl;
+
+    while (true) {
+        if (!(std::cin >> n)) {
+            std::cout << "Input non valido. Inserire un numero intero." << std::endl;
+            std::cin.clear();
+            std::cin.ignore(1000, '\n');
+            continue;
+        }
+
+        if (n == 0) break;
+
+        if (n > 0) {
             somma += n;
         }
     }
-    
-    cout << "La somma dei numeri positivi è: " << somma << endl;
-    
+
+    std::cout << "La somma dei numeri positivi è: " << somma << std::endl;
 
     return 0;
 }
+
 
 
 
