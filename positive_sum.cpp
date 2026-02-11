@@ -1,4 +1,5 @@
-// Programma C++ da terminale che calcola la media voti inseriti dall'utente
+cpp
+
 #include <iostream>
 
 using namespace std;
@@ -32,6 +33,7 @@ int main(){
 return 0;
     
 }  
+
 
 
 
