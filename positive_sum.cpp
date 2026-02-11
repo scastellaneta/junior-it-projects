@@ -1,34 +1,37 @@
-// Programma C++ per il calcolo della somma dei numeri positivi
+// Programma C++ da terminale che calcola la media voti inseriti dall'utente
 #include <iostream>
 
-int main() {
+using namespace std;
+
+int main(){
+
     int n;
-    int somma = 0;
+    float voto, somma = 0;
 
-    std::cout << "Inserisci numeri (0 per terminare):" << std::endl;
+    cout<<"Quanti voti vuoi inserire?";
+    cin>>n;
 
-    while (true) {
-        if (!(std::cin >> n)) {
-            std::cout << "Input non valido. Inserire un numero intero." << std::endl;
-            std::cin.clear();
-            std::cin.ignore(1000, '\n');
-            continue;
-        }
+    for(int i = 1; i <= n; i++){
+        cout << "Inserisci voto " << i << ":";
+        cin >> voto;
+        somma += voto;
 
-        if (n == 0) break;
-
-        if (n > 0) {
-            somma += n;
-        }
     }
 
-    std::cout << "La somma dei numeri positivi è: " << somma << std::endl;
+    float media = somma / n;
 
-    return 0;
-}
+    cout << "La media e':" << media << endl;
 
-
-
+    if(media >= 6){
+        cout<<"Promosso!\n";
+    }
+    else{
+        cout<<"Bocciato!\n";
+    }
+    
+return 0;
+    
+}  
 
 
 
