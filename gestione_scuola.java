@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class esercizio1 {
+public class gestionescuola {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
@@ -44,8 +44,39 @@ public class esercizio1 {
 
         }else if(eta >= 12 && eta <= 14){
             System.out.println("Fai le medie");
+            System.out.println("Quanti voti vuoi inserire? ");
+            int numerovoti = input.nextInt();
+
+            if(numerovoti > 0){
+                double somma = 0;
+
+                for(int i = 1; i <= numerovoti; i++){
+                    System.out.println("Inserisci il voto" + i + ":");
+                    double voto = input.nextDouble();
+                    somma += voto;
+                }
+                double media = somma / numerovoti;
+                System.out.println("La media e: "+ media);
+            }else{
+                System.out.println("Numero di voti non valido");
+            }
         }else if(eta >= 15 && eta <= 19){
             System.out.println("Fai le superiori");
+            int numerovoti = input.nextInt();
+
+            if(numerovoti > 0){
+                double somma = 0;
+
+                for(int i = 1; i <= numerovoti; i++){
+                    System.out.println("Inserisci il voto" + i + ":");
+                    double voto = input.nextDouble();
+                    somma += voto;
+                }
+                double media = somma / numerovoti;
+                System.out.println("La media e: "+ media);
+            }else{
+                System.out.println("Numero di voti non valido");
+            }
         }else{
             System.out.println("Hai finito scuola! ");
         }
