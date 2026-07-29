@@ -1,6 +1,6 @@
 # junior-it-projects
 
-Progetti personali in C++ e Python creati per esercitarmi nella programmazione.
+Progetti personali in Python e Java creati per esercitarmi nella programmazione.
 
 ## Contenuti
 
